@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         Log.i("RESULT", "LiquidCore run in " + (endTime - startTime) + "ms")
     }
 
+    // https://github.com/namuol/jv8
     fun testV8Runner(script: String) {
         val runner = V8Runner()
 
